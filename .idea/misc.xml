@@ -3,8 +3,18 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
+        <option value="$PROJECT_DIR$/userservice/pom.xml" />
+>>>>>>> 52c48185299e9cd3779c4bc49d305d3ed2079f4c
+>>>>>>> 8b2aa36a0a15574a15d18aa8fa1208cdeb89e1a5
       </list>
     </option>
   </component>
