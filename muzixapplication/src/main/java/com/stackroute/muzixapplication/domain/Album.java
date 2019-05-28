@@ -14,6 +14,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+<<<<<<< HEAD
+=======
+
+>>>>>>> f01ba89cda443e69139f9e432d46b05431ccb29b
 public class Album {
 @Id
     private int trackid;

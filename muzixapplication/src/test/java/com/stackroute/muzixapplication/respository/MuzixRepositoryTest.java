@@ -27,9 +27,9 @@ public class MuzixRepositoryTest {
     {
         album = new Album();
         album.setTrackid(101);
-        album.setTrackname("munbeva");
-        album.setTrackartist("sherya");
-        album.setGenre("melody");
+        album.setTrackname("cheaptrills");
+        album.setTrackartist("sia");
+        album.setGenre("rock");
 
     }
 
