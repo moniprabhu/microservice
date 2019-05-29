@@ -10,14 +10,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 //@Entity
-@Document
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-<<<<<<< HEAD
-=======
-
->>>>>>> f01ba89cda443e69139f9e432d46b05431ccb29b
+@Document(collection = "musicdb")
 public class Album {
 @Id
     private int trackid;
