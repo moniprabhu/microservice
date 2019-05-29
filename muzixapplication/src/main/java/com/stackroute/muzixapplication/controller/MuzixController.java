@@ -66,7 +66,7 @@ public class MuzixController {
         return responseEntity;
     }
         @GetMapping("album")
-        public ResponseEntity<?>getAllAlbums(){
+        public ResponseEntity<?> getAllAlbums(){
             return  new ResponseEntity<List<Album>>(muzixService.getAllAlbums(),HttpStatus.OK);
         }
 
