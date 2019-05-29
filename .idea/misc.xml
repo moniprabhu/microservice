@@ -5,7 +5,24 @@
       <list>
         <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/zuulapigateaway/microservices/pom.xml" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-config-server/pom.xml" />
+=======
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
+        <option value="$PROJECT_DIR$/userservice/pom.xml" />
+>>>>>>> 52c48185299e9cd3779c4bc49d305d3ed2079f4c
+>>>>>>> 8b2aa36a0a15574a15d18aa8fa1208cdeb89e1a5
+>>>>>>> 28b842796c3e283b402594992dad767519633974
+>>>>>>> 8d82c27c879aebfae3b25b9be71f87d617cc4aa0
       </list>
     </option>
   </component>

@@ -10,10 +10,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 //@Entity
-@Document
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Document(collection = "album")
 
 public class Album {
 @Id
@@ -21,6 +21,4 @@ public class Album {
     private String trackname;
     private String trackartist;
     private String genre;
-
-
 }
