@@ -9,9 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.stackroute</groupId>
+<<<<<<< HEAD
 	<artifactId>trackservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>trackservice</name>
+=======
+	<artifactId>music-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>music-service</name>
+>>>>>>> daf91d8a2d5a0572f006e93ba59d17afa768ca08
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
