@@ -9,24 +9,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-
 public class MuzixApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(MuzixApplication.class, args);
     }
 }
-    @RefreshScope
-    @RestController
-    class MessageRestController {
-
-        @Value("${msg:Hello world - Config Server is not working..please check}")
-        private String msg;
-
-        @RequestMapping("/msg")
-        String getMsg() {
-            return this.msg;
-        }
-    }
+//}
+//    @RefreshScope
+//    @RestController
+//    class MessageRestController {
+//
+//        @Value("${msg:Hello world - Config Server is not working..please check}")
+//        private String msg;
+//        @RequestMapping("/msg")
+//        String getMsg() {
+//            return this.msg;
+//        }
+//}
 
 
