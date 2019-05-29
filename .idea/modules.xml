@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservice.iml" filepath="$PROJECT_DIR$/.idea/Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-config-server/spring-config-server.iml" filepath="$PROJECT_DIR$/spring-config-server/spring-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice (1).iml" filepath="$PROJECT_DIR$/muzixapplication/userservice (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/userservice/userservice (2).iml" filepath="$PROJECT_DIR$/userservice/userservice (2).iml" />
     </modules>
