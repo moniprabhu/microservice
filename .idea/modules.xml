@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuulapigateaway/microservices/microservices.iml" filepath="$PROJECT_DIR$/zuulapigateaway/microservices/microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-config-server/spring-config-server.iml" filepath="$PROJECT_DIR$/spring-config-server/spring-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muzixapplication/trackservice.iml" filepath="$PROJECT_DIR$/muzixapplication/trackservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice (1) (com.stackroute).iml" filepath="$PROJECT_DIR$/muzixapplication/userservice (1) (com.stackroute).iml" />
-=======
-<<<<<<< HEAD
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice.iml" filepath="$PROJECT_DIR$/.idea/Microservice.iml" />
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice.iml" filepath="$PROJECT_DIR$/muzixapplication/userservice.iml" />
-=======
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
->>>>>>> 8d82c27c879aebfae3b25b9be71f87d617cc4aa0
-      <module fileurl="file://$PROJECT_DIR$/spring-config-server/spring-config-server.iml" filepath="$PROJECT_DIR$/spring-config-server/spring-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice.iml" filepath="$PROJECT_DIR$/muzixapplication/userservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/userservice/userservice (1).iml" filepath="$PROJECT_DIR$/userservice/userservice (1).iml" />
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice (1).iml" filepath="$PROJECT_DIR$/muzixapplication/userservice (1).iml" />
-=======
->>>>>>> 28b842796c3e283b402594992dad767519633974
-      <module fileurl="file://$PROJECT_DIR$/muzixapplication/userservice (1).iml" filepath="$PROJECT_DIR$/muzixapplication/userservice (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/userservice/userservice (2).iml" filepath="$PROJECT_DIR$/userservice/userservice (2).iml" />
->>>>>>> 52c48185299e9cd3779c4bc49d305d3ed2079f4c
->>>>>>> 8b2aa36a0a15574a15d18aa8fa1208cdeb89e1a5
->>>>>>> d38d0d7f3fcec18248976b372c587dd5cee45bc8
->>>>>>> 8d82c27c879aebfae3b25b9be71f87d617cc4aa0
->>>>>>> daf91d8a2d5a0572f006e93ba59d17afa768ca08
+      <module fileurl="file://$PROJECT_DIR$/zuulapigateaway/microservices/zuul-api-gateway.iml" filepath="$PROJECT_DIR$/zuulapigateaway/microservices/zuul-api-gateway.iml" />
     </modules>
   </component>
 </project>
