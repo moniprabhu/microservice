@@ -3,18 +3,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/muzixapplication/pom.xml" />
-
-        <option value="$PROJECT_DIR$/userservice/pom.xml" />
-
-        <option value="$PROJECT_DIR$/zuulapigateaway/microservices/pom.xml" />
-
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-
-
         <option value="$PROJECT_DIR$/spring-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulapigateaway/microservices/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/userservice/pom.xml" />
-
       </list>
     </option>
   </component>

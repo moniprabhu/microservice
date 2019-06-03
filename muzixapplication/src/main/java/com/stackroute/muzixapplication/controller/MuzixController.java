@@ -1,6 +1,6 @@
 package com.stackroute.muzixapplication.controller;
 
-import com.stackroute.muzixapplication.Service.MuzixService;
+import com.stackroute.muzixapplication.service.MuzixService;
 import com.stackroute.muzixapplication.domain.Album;
 import com.stackroute.muzixapplication.exception.IdNotFoundException;
 import com.stackroute.muzixapplication.exception.TrackNotFoundException;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="api/v2")
+@RequestMapping(value="api/v1")
 
 public class MuzixController {
 

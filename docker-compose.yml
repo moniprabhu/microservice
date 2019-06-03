@@ -1,0 +1,83 @@
+  version: "2"
+  services:
+
+    zuul-api-gateway:
+      image: zuul-service:latest
+      build: ./zuul-api-gateway/
+      restart: always
+      network_mode: host
+      depends_on:
+        - eurekaserver
+      ports:
+        - 8092:8092
+      expose:
+        - 8092
+
+    eurekaserver:
+      image: eureka-service:latest
+      build: eurekaserver/
+      restart: always
+      network_mode: host
+      ports:
+        - 8761:8761
+      expose:
+        - 8761
+
+    spring-config-server:
+      image: spring-config-server
+      build: spring-config-server/
+      restart: always
+      network_mode: host
+      ports:
+        - 8888:8888
+      expose:
+        - 8888
+
+
+    trackservice:
+     image: track-service
+     build: muzixapplication/
+     restart: always
+     network_mode: host
+     depends_on:
+      - spring-config-server
+      - mongo
+     ports:
+       - 8080:8080
+     expose:
+       - 8080
+
+    userservice:
+     image: user-service
+     build: userservice/
+     restart: always
+     network_mode: host
+     depends_on:
+       - spring-config-server
+     ports:
+       - 8090:8090
+     expose:
+       - 8090
+
+    mongo:
+      image: mongo
+      restart: always
+      ports:
+        - 27017:27017
+      network_mode: host
+      volumes:
+        - $HOME/mongo/db:/data/db
+
+    mysql:
+      image: mysql:5.7
+      volumes:
+        - ./dbcreation.sql:/tmp/dbcreation.sql
+        - ./import.sh:/tmp/import.sh
+      ports:
+        - 3306:3306
+      environment:
+        MYSQL_DATABASE: "userdb"
+        MYSQL_USER: "root"
+        MYSQL_PASSWORD: "Root@123"
+        MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+

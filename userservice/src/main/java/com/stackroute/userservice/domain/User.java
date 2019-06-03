@@ -12,7 +12,7 @@ import javax.persistence.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
+
 public class User {
     @Id
     int id;
